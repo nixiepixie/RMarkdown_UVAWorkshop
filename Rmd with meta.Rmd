@@ -17,7 +17,7 @@ Here is my first RMarkdown document.
 
 We'll write an R chunk here that loads the tidyverse library and then reads in the gapminder dataset from our project directory.  
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 library(tidyverse)
 gm <- read_csv("gapminder.csv")
 ```
